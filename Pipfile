@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+black = "*"
+isort = "*"
+flit = "*"
+invoke = "*"
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+pre-commit = "invoke pre-commit"
+bump = "invoke bump"
+format = "invoke reformat"
+update = "invoke update-dependencies"
