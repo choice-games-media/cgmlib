@@ -1,1 +1,3 @@
-__version__ = "0.0.1"
+from cgmlib import config, tui
+
+__version__ = "0.1.0"

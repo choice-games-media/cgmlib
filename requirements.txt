@@ -1,1 +1,2 @@
 -i https://pypi.org/simple
+keyboard==0.13.5
